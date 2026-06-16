@@ -29,4 +29,17 @@ This project extracts domain-specific concepts from educational PDFs, generates 
 - Set up your .venv with uv sync
 - Define all variables in settings.py
 - Select desired steps in main.py (comment the odd lines)
+```
+    input_file = 'definitions_11.json'
+    pipe = Pipeline(input_file)
+
+    # # Регистрация последовательности шагов
+    # pipe.add_step('extract_concept')   # Извлекаем понятия
+    # pipe.add_step('make_definitions') # Создаем дефиниции
+    pipe.add_step('make_instructions') # Генерируем инструкции
+
+    # Обрабатываем файл
+    processed_data = pipe.run()
+    print(processed_data)
+```
 - run main.py
