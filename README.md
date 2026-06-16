@@ -22,7 +22,7 @@ This project extracts domain-specific concepts from educational PDFs, generates 
     }
   ]
 }
-
+```
 ---
 
 ### Project setup:
