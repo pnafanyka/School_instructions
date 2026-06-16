@@ -23,9 +23,8 @@ This project extracts domain-specific concepts from educational PDFs, generates 
   ]
 }
 
----
 
-To run the project:
+## To run the project:
 - Set up your .venv with uv sync
 - Define all variables in settings.py
 - Select desired steps in main.py (comment the odd lines)
